@@ -1,8 +1,6 @@
-import requests
-import time
-from function import sistema, ip, cep, cnpj, ddd, bin
+import modules.system_start
 
-sistema()
+modules.system_start.menu_start()
 
     
 
